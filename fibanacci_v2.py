@@ -10,3 +10,4 @@ for i in range(3, num):
 
 # Printing the Series
 print(lst)
+#print(globals())
