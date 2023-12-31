@@ -7,7 +7,7 @@ Following individual programs were combine into one to apply that to all example
   • Python program to remove all non-alphabetic characters from a string
 '''
 #str = input("End a string with numbers and special characters in it :")
-str = 'string object to a list, modify the list either by insert(), append() or remove() methods'
+str = 'String object to a list. Modify the list either by INSERT(), APPEND() or REMOVE() methods'
 print('Original String : \n {}'.format(str))
 
 lst = list(str)
@@ -39,4 +39,12 @@ words = str.split()
 print('Split the string into words \n', words)
 nwords = len(words)
 print('Number of words in this string is : ', nwords,'\n')
+
 # Removing all non-alphanetic characters from the string
+alst = []
+for cstr in lst:
+  if ord(cstr.lower()) in range(ord('a'), ord('z')):
+    alst.append(cstr)
+
+print('Removing all non-alphabetic characters from original list \n')
+print(alst)
