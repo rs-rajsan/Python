@@ -270,7 +270,7 @@ def main():
   # Looping dictionaries
   marklist ={"Mahesh":{"Phy":60,"maths":70},"Madhavi":{"phy":75,"maths":68},"Mitchell":{"phy":67,"maths":71}}
   for k,v in marklist.items():
-	  print(k,":",v)
+    print(k,":",v)
   print()
   
   # It is possible to access value from an inner dictionary with [] notation or get() method.
