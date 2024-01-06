@@ -272,7 +272,7 @@ def main():
   for k,v in marklist.items():
 	  print(k,":",v)
   print()
-
+  
   # It is possible to access value from an inner dictionary with [] notation or get() method.
   print('Maths marks of Madhavi: ', marklist.get("Madhavi")['maths'])
   obj=marklist['Mahesh']
